@@ -22,6 +22,7 @@ function problemaJosephus($nPessoas, $posInicio) {
 	return current($arr);
 }
 
+//testes representando outros cenários
 $vivo = problemaJosephus(5, 3);
 echo ('A posição é ' . $vivo);
 echo "\n";
@@ -34,6 +35,8 @@ echo "\n";
 $vivo = problemaJosephus(7, 3);
 echo ('A posição é ' . $vivo);
 echo "\n";
+
+//teste representando o cenário da ilustração do desafio
 $vivo = problemaJosephus(13, 2);
 echo ('A posição é ' . $vivo);
 echo "\n";
