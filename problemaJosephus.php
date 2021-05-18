@@ -23,16 +23,13 @@ function problemaJosephus($nPessoas, $posInicio) {
 }
 
 //testes representando outros cenários
-$vivo = problemaJosephus(5, 3);
-echo ('A posição é ' . $vivo);
-echo "\n";
 $vivo = problemaJosephus(10, 3);
 echo ('A posição é ' . $vivo);
 echo "\n";
-$vivo = problemaJosephus(5, 2);
+$vivo = problemaJosephus(100, 9);
 echo ('A posição é ' . $vivo);
 echo "\n";
-$vivo = problemaJosephus(7, 3);
+$vivo = problemaJosephus(49, 5);
 echo ('A posição é ' . $vivo);
 echo "\n";
 
